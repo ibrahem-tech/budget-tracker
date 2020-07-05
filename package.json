@@ -1,0 +1,26 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "App for budget tracking ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahem-tech/budget-tracker.git"
+  },
+  "author": "Ebrahim Rian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahem-tech/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/ibrahem-tech/budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "morgan": "^1.10.0"
+  }
+}
